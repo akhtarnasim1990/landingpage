@@ -1,0 +1,29 @@
+.herosection {
+  padding: 4% 30px;
+  width: auto;
+  position: relative;
+}
+.herosection img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.herosection .herosection-product-info {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(0, -50%);
+  text-align: left;
+  color: #fff;
+}
+
+.herosection .herosection-product-info .shop-btn button {
+  padding: 0 4rem;
+  height: 50px;
+  border-radius: 50px;
+  color: #5a5959;
+  background-color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 20px;
+}

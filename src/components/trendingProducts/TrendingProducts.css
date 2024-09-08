@@ -1,0 +1,156 @@
+.trending-products {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  padding: 0 30px;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dddd;
+}
+
+.trending-header h2 {
+  font-size: 1.8rem;
+  color: #333;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.view-all-link-div {
+  display: flex;
+  align-items: center;
+  color: #9c9e9c;
+}
+
+.view-all-link {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #9c9e9c;
+}
+.view-all-link:hover,
+.view-all-link-div:hover {
+  color: #007bff;
+}
+
+.products-container {
+  display: flex;
+  gap: 20px;
+  /* overflow-x: scroll; */
+}
+
+.product-card {
+  background-color: #fff;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 10px; */
+  /* width: 200px; */
+  /* padding: 10px; */
+  text-align: center;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.product-card h3 {
+  text-align: left;
+}
+
+.product-card p {
+  width: 100%;
+  text-align: left;
+  margin: 5px 0;
+  font-size: 12px;
+  color: #696969;
+}
+/* .product-card p:first {
+  margin-bottom: 5px;
+} */
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  /* background-color: red; */
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+
+.product-image-container {
+  position: relative;
+  padding: 20px;
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* margin-bottom: 10px; */
+}
+/* .product-card .product-image:hover {
+  transform: scale(1.05);
+} */
+
+.hover-icons {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.product-card:hover .hover-icons {
+  opacity: 1;
+}
+
+.icon-btn {
+  background-color: #fff;
+  border: none;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.icon-btn i {
+  color: #333;
+}
+
+.icon-btn:hover i {
+  color: #007bff;
+}
+
+.price-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.old-price {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #999;
+}
+
+.rating {
+  margin: 0 0 10px 0;
+  color: gold;
+  text-align: left;
+  width: 100%;
+}

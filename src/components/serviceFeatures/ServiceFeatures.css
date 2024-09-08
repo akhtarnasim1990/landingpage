@@ -1,0 +1,31 @@
+.service-features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  font-family: Arial, sans-serif;
+}
+
+.feature {
+  text-align: center;
+  flex: 1;
+}
+
+.icon {
+  font-size: 30px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.feature h3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #333;
+  /* font-weight: 600; */
+}
+
+.feature p {
+  font-size: 0.85rem;
+  color: #666;
+  font-weight: 500;
+}

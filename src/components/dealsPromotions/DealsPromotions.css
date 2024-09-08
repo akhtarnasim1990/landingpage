@@ -1,0 +1,62 @@
+.deals-promotions {
+  padding: 5% 30px;
+  font-family: Arial, sans-serif;
+}
+
+.deals-promotions h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left;
+}
+
+.deals-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.deal-card {
+  flex: 1;
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.deal-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  transition: all ease-in-out 0.5s;
+}
+
+.deal-image:hover {
+  transform: scale(1.2);
+}
+
+.deal-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.deal-card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  /* .deal-card {
+        margin-bottom: 20px;
+    }; */
+
+  .deals-container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,81 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  /* border-bottom: 2px solid black; */
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 20px 20px 20px 0;
+}
+
+.menu-icon {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+.dropdown-icon {
+  font-size: 12px;
+  margin-left: 4px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  margin: 0 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.sale-link {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hot-badge {
+  background-color: red;
+  color: white;
+  font-size: 10px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  position: absolute;
+  top: -15px;
+  right: -15px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.recently-viewed-icon {
+  margin-right: 5px;
+  color: #606060;
+  font-size: 16px;
+}
+
+.recently-viewed-text {
+  font-size: 14px;
+}
